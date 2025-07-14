@@ -14,18 +14,22 @@ body {
   height: 100%;
 }
 #intro-container {
-  display: stretch;
+  display: flex;
   gap: 30px;
   align-items: center;
   margin-bottom: 20px;
+  flex: 0 0 300px;
 }
 
 #contact-bar {
-  display: inline-block; /* Or display: inline-block; */
+  display: flex; /* Or display: inline-block; */
   justify-content: space-around; /* Distribute items evenly */
+  gap: 15px;
 }
 #profile-section {
   flex-direction: column;
   text-align: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
-
