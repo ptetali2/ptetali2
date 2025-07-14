@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 #intro-container {
-  display: flex;
+  display: stretch;
   gap: 30px;
   align-items: center;
   margin-bottom: 20px;
