@@ -7,7 +7,6 @@ h2 {
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  size: ;
 }
 #image-container {
   width: 100%;
@@ -18,18 +17,13 @@ body {
   gap: 30px;
   align-items: center;
   margin-bottom: 20px;
-  flex: 0 0 300px;
 }
 
 #contact-bar {
   display: flex; /* Or display: inline-block; */
   justify-content: space-around; /* Distribute items evenly */
-  gap: 15px;
 }
 #profile-section {
   flex-direction: column;
   text-align: center;
-  flex: 1;
-  display: flex;
-  justify-content: center;
 }
